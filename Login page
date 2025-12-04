@@ -1,6 +1,5 @@
 <!DOCKTYPE html>
 <html lang="en"
-
 <head>
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -34,8 +33,8 @@ boxicons.min.css' rel='stylesheet'>
 
     <button type="submit" class="btn">Login</button>
 <div class="register-link">
-    <p>Don't have an account? <a
-    href="#">Register</a></p>
+    <p>Don't have an account? 
+    <a href="registration.html">Register</a></p>
 </div>
 </form>
 </div>
