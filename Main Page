@@ -10,7 +10,8 @@
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
-
+<form class="form">
+            <h2>Online Market Research </h2>
   <header class="site-header">
     <div class="container header-inner">
       <div class="logo">insightmatrix</div>
@@ -21,6 +22,7 @@
           <li><a href="#methodology">Methodology</a></li>
           <li><a href="#results">Case studies</a></li>
           <li><a href="#contact">Contact</a></li>
+          <li><a href="registration.html">Register</a></li>
         </ul>
       </nav>
     </div>
