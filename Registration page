@@ -1,56 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Market Research Registration</title>
-    <link rel="stylesheet" href="style1.css">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Register form</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
+  <div class="wrapper">
+    <form id="registerForm">
+      <h1>register</h1>
 
-    <div class="container">
-        <form class="form">
-            <h2>Online Market Research Registration</h2>
+      <div class="input-box">
+        <input type="text" placeholder="Full Name" required>
+        <i class='bx bxs-user'></i>
+      </div>
 
-            <label for="name">Full Name</label>
-            <input type="text" id="name" placeholder="Enter your full name" required>
+      <div class="input-box">
+        <input type="email" placeholder="Email" required>
+        <i class='bx bxs-envelope'></i>
+      </div>
 
-            <label for="email">Email Address</label>
-            <input type="email" id="email" placeholder="Enter your email" required>
+      <div class="input-box">
+        <input type="text" placeholder="Username" required>
+        <i class='bx bxs-user-circle'></i>
+      </div>
 
-            <label for="phone">Phone Number</label>
-            <input type="text" id="phone" placeholder="Enter your phone number" required>
+      <div class="input-box">
+        <input type="password" placeholder="Password" required>
+        <i class='bx bxs-lock-alt'></i>
+      </div>
 
-            <label for="age">Age</label>
-            <input type="number" id="age" min="18" placeholder="Enter your age" required>
+      <div class="input-box">
+        <input type="password" placeholder="Confirm Password" required>
+        <i class='bx bxs-lock'></i>
+      </div>
 
-            <label for="gender">Gender</label>
-            <select id="gender" required>
-                <option value="">-- Select Gender --</option>
-                <option>Male</option>
-                <option>Female</option>
-                <option>Other</option>
-                <option>Prefer not to say</option>
-            </select>
+      <button type="submit" class="btn">register</button>
 
-            <label for="interest">Area of Interest</label>
-            <select id="interest" required>
-                <option value="">-- Select Interest --</option>
-                <option>Technology</option>
-                <option>Fashion</option>
-                <option>Food & Beverage</option>
-                <option>Smartphones</option>
-                <option>Automobiles</option>
-                <option>Education</option>
-                <option>Finance</option>
-            </select>
+      <div class="register-link">
+        <p>Already have an account? <a href="login.html">Login</a></p>
+      </div>
+    </form>
+  </div>
 
-            <label for="password">Create Password</label>
-            <input type="password" id="password" placeholder="Enter password" required>
+  <script>
 
-            <button type="submit">Register</button>
-        </form>
-    </div>
-
+    document.getElementById("registerForm").addEventListener("submit", function(e) {
+      e.preventDefault();
+      window.location.href = "project.html"; 
+    });
+  </script>
 </body>
+
 </html>
+
+            
+
+           
