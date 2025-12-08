@@ -1,17 +1,14 @@
-<!DOCTY<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
+<meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>insightmatrix — Online Market Research</title>
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style2.css" />
+  <link rel="stylesheet" href="style.css" />
+
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
-<form class="form">
-            <h2>Online Market Research </h2>
+
   <header class="site-header">
     <div class="container header-inner">
       <div class="logo">insightmatrix</div>
@@ -22,13 +19,14 @@
           <li><a href="#methodology">Methodology</a></li>
           <li><a href="#results">Case studies</a></li>
           <li><a href="#contact">Contact</a></li>
-          <li><a href="registration.html">Register</a></li>
+          <li><a href="login.html">Login</a></li> 
         </ul>
       </nav>
     </div>
   </header>
 
   <main id="main">
+
     <section class="hero">
       <div class="container hero-inner">
         <div class="hero-copy">
@@ -61,6 +59,7 @@
       </div>
     </section>
 
+
     <section id="services" class="section">
       <div class="container">
         <h2>Core services</h2>
@@ -89,22 +88,10 @@
       <div class="container">
         <h2>Methodology</h2>
         <ol class="steps">
-          <li>
-            <h4>Design</h4>
-            <p>Define objectives, hypotheses, sampling, and instruments.</p>
-          </li>
-          <li>
-            <h4>Field</h4>
-            <p>Deploy surveys, recruit panels, monitor quality metrics.</p>
-          </li>
-          <li>
-            <h4>Analyze</h4>
-            <p>Clean data, segment cohorts, quantify insights and drivers.</p>
-          </li>
-          <li>
-            <h4>Deliver</h4>
-            <p>Actionable report, dashboards, and decision-ready recommendations.</p>
-          </li>
+          <li><h4>Design</h4><p>Define objectives, hypotheses, sampling, and instruments.</p></li>
+          <li><h4>Field</h4><p>Deploy surveys, recruit panels, monitor quality metrics.</p></li>
+          <li><h4>Analyze</h4><p>Clean data, segment cohorts, quantify insights and drivers.</p></li>
+          <li><h4>Deliver</h4><p>Actionable report, dashboards, and decision-ready recommendations.</p></li>
         </ol>
       </div>
     </section>
@@ -127,18 +114,9 @@
       <div class="container">
         <h2>Results that matter</h2>
         <div class="grid stats">
-          <div class="stat">
-            <div class="big">+28%</div>
-            <p>Conversion lift after messaging optimization</p>
-          </div>
-          <div class="stat">
-            <div class="big">3x</div>
-            <p>Faster go-to-market informed by rapid surveys</p>
-          </div>
-          <div class="stat">
-            <div class="big">92%</div>
-            <p>Customer satisfaction with research deliverables</p>
-          </div>
+          <div class="stat"><div class="big">+28%</div><p>Conversion lift after messaging optimization</p></div>
+          <div class="stat"><div class="big">3x</div><p>Faster go-to-market informed by rapid surveys</p></div>
+          <div class="stat"><div class="big">92%</div><p>Customer satisfaction with research deliverables</p></div>
         </div>
         <blockquote class="testimonial">
           “Their insights reshaped our product launch. Clear, fast, and spot-on.”
@@ -146,6 +124,113 @@
         </blockquote>
       </div>
     </section>
+
+    <section id="cta" class="cta-band"><!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>insightmatrix — Online Market Research</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo">insightmatrix</div>
+      <nav aria-label="Primary">
+        <ul class="nav">
+          <li><a href="#" aria-current="page">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#methodology">Methodology</a></li>
+          <li><a href="#results">Case studies</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="login.html">Login</a></li> 
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <h1>Data that moves decisions</h1>
+          <p>We run fast, reliable online market research so your team can launch with confidence—survey panels, product tests, and sentiment at scale.</p>
+          <div class="cta-group">
+            <a class="btn btn-primary" href="#cta">Get a proposal</a>
+            <a class="btn btn-secondary" href="#results">View case studies</a>
+          </div>
+          <ul class="proof">
+            <li>Trusted by 120+ brands</li>
+            <li>Global reach in 35 countries</li>
+            <li>ISO/IEC 27001 aligned</li>
+          </ul>
+        </div>
+        <div class="hero-card" role="img" aria-label="Dashboard preview of survey insights">
+          <div class="card-stat"><span class="stat-label">Response rate</span><span class="stat-value">72%</span></div>
+          <div class="card-stat"><span class="stat-label">Time to insight</span><span class="stat-value">48 hrs</span></div>
+          <div class="card-stat"><span class="stat-label">Panel size</span><span class="stat-value">250k+</span></div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="services" class="section">
+      <div class="container">
+        <h2>Core services</h2>
+        <div class="grid cards">
+          <article class="card"><h3>Consumer surveys</h3><p>Targeted questionnaires to validate demand, pricing, and positioning.</p></article>
+          <article class="card"><h3>Panel recruitment</h3><p>Screened audiences across demographics with quality checks.</p></article>
+          <article class="card"><h3>Product testing</h3><p>Remote and in-field tests with structured feedback loops.</p></article>
+          <article class="card"><h3>Sentiment analysis</h3><p>Voice-of-customer data to inform messaging and creative.</p></article>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="methodology" class="section alt">
+      <div class="container">
+        <h2>Methodology</h2>
+        <ol class="steps">
+          <li><h4>Design</h4><p>Define objectives, hypotheses, sampling, and instruments.</p></li>
+          <li><h4>Field</h4><p>Deploy surveys, recruit panels, monitor quality metrics.</p></li>
+          <li><h4>Analyze</h4><p>Clean data, segment cohorts, quantify insights and drivers.</p></li>
+          <li><h4>Deliver</h4><p>Actionable report, dashboards, and decision-ready recommendations.</p></li>
+        </ol>
+      </div>
+    </section>
+
+
+    <section id="industries" class="section">
+      <div class="container">
+        <h2>Industries we serve</h2>
+        <ul class="chips">
+          <li>FMCG</li><li>FinTech</li><li>Healthcare</li><li>EdTech</li><li>SaaS</li><li>Automotive</li>
+        </ul>
+      </div>
+    </section>
+
+
+    <section id="results" class="section alt">
+      <div class="container">
+        <h2>Results that matter</h2>
+        <div class="grid stats">
+          <div class="stat"><div class="big">+28%</div><p>Conversion lift after messaging optimization</p></div>
+          <div class="stat"><div class="big">3x</div><p>Faster go-to-market informed by rapid surveys</p></div>
+          <div class="stat"><div class="big">92%</div><p>Customer satisfaction with research deliverables</p></div>
+        </div>
+        <blockquote class="testimonial">
+          “Their insights reshaped our product launch. Clear, fast, and spot-on.”
+          <cite>— VP Marketing, D2C Brand</cite>
+        </blockquote>
+      </div>
+    </section>
+
 
     <section id="cta" class="cta-band">
       <div class="container cta-inner">
@@ -156,61 +241,43 @@
     </section>
   </main>
 
+
   <footer id="contact" class="site-footer">
     <div class="container footer-inner">
       <div>
-        <h3><Contact>+91 7366956411
-          <br>
-         +91 9252178284
-<br>
-          +91 8894869497
-    <br>
+        <h3>Contact</h3>
+        <p>
+          +91 7366956411<br>
+          +91 9252178284<br>
+          +91 8894869497<br>
           +91 8894658710
-        </Contact>
-        <p>satyamchaubey@gmail.com
-          lakshyam419@gmail.com
-          bhargavthakur958@gmail.com
-          ayushshivugautam2007@gmail.com          <div class="about-frame">
-            <h3>About insightmatrix</h3>
-            <p>
-              insightmatrix is a forward-thinking online market research firm dedicated to transforming how brands understand their customers. We believe that high-quality, actionable insights shouldn't require months of waiting or astronomical budgets. Founded with the mission to democratize access to enterprise-grade research, we've built a platform and methodology that delivers speed without sacrificing rigor.
-            </p>
-            <p>
-              Our team combines decades of experience in quantitative research, behavioral psychology, and data science. We work across industries—from fast-moving consumer goods to fintech startups—helping teams at all stages validate hypotheses, launch with confidence, and optimize based on real customer feedback. Whether you're testing a new product concept, refining your messaging, or understanding market sentiment at scale, we bring a structured, no-nonsense approach to discovery.
-            </p>
-            <p>
-              What sets us apart is our commitment to quality and speed. Our proprietary panel of 250,000+ screened respondents, combined with real-time quality controls and AI-assisted analysis, means you get decision-ready insights in days, not months. We're ISO/IEC 27001 aligned, ensuring your data and your customers' privacy are treated with the highest standards. Our clients trust us because we deliver clear narratives backed by bulletproof methodology—no fluff, no jargon, just answers.
-            </p>
-            <p>
-              We're based in Solan, HP, India, with a distributed team serving brands across 35 countries. Our mission is simple: equip you with the confidence to make bold moves backed by data.
-            </p>
-          </div>
-
         </p>
+        <p>
+          satyamchaubey@gmail.com<br>
+          lakshyam419@gmail.com<br>
+          bhargavthakur958@gmail.com<br>
+          ayushshivugautam2007@gmail.com
+        </p>
+        <div class="about-frame">
+          <h3>About insightmatrix</h3>
+          <p>
+            insightmatrix is a forward-thinking online market research firm dedicated to transforming how brands understand their customers. We believe that high-quality, actionable insights shouldn't require months of waiting or astronomical budgets.
+          </p>
+          <p>
+            Our team combines decades of experience in quantitative research, behavioral psychology, and data science. We work across industries—from fast-moving consumer goods to fintech startups—helping teams validate hypotheses, launch with confidence, and optimize based on real customer feedback.
+          </p>
+          <p>
+            What sets us apart is our commitment to quality and speed. Our proprietary panel of 250,000+ screened respondents, combined with real-time quality controls and AI-assisted analysis, means you get decision-ready insights in days, not months.
+          </p>
+          <p>
+            We're based in Solan, HP, India, with a distributed team serving brands across 35 countries. Our mission is simple: equip you with the confidence to make bold moves backed by data.
+          </p>
+        </div>
         <p>Address: Solan, HP, India</p>
       </div>
-      
-      
-        
-
-
-    <div class="about-frame">
-  <h3>About insightmatrix</h3>
-  <p>
-    insightmatrix is a forward-thinking online market research firm dedicated to transforming how brands understand their customers. We believe that high-quality, actionable insights shouldn't require months of waiting or astronomical budgets. Founded with the mission to democratize access to enterprise-grade research, we've built a platform and methodology that delivers speed without sacrificing rigor.
-  </p>
-  <p>
-    Our team combines decades of experience in quantitative research, behavioral psychology, and data science. We work across industries—from fast-moving consumer goods to fintech startups—helping teams at all stages validate hypotheses, launch with confidence, and optimize based on real customer feedback. Whether you're testing a new product concept, refining your messaging, or understanding market sentiment at scale, we bring a structured, no-nonsense approach to discovery.
-  </p>
-  <p>
-    What sets us apart is our commitment to quality and speed. Our proprietary panel of 250,000+ screened respondents, combined with real-time quality controls and AI-assisted analysis, means you get decision-ready insights in days, not months. We're ISO/IEC 27001 aligned, ensuring your data and your customers' privacy are treated with the highest standards. Our clients trust us because we deliver clear narratives backed by bulletproof methodology—no fluff, no jargon, just answers.
-  </p>
-  <p>
-    We're based in Solan, HP, India, with a distributed team serving brands across 35 countries. Our mission is simple: equip you with the confidence to make bold moves backed by data.
-  </p>
-</div>
     </div>
-    <div class="container tiny">© 2025 insightmatrix</div>
   </footer>
 </body>
 </html>
+
+      <div class="container cta-inner
